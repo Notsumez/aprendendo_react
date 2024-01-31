@@ -1,5 +1,7 @@
 // A parte superior do arquivo sempre é usada para importações de dependencias ou arquivos
 import './App.css';
+// Definindo o componente
+import HelloWorld from './components/HelloWorld';
 
 
 // todo o conteúdo é escrito dentro da função
@@ -26,6 +28,8 @@ function App() {
       <p>Soma: {Sum(1, 2)}</p>
       {/* Podemos colocar dinâmicamente elementos no html */}
       <img src={url} alt="Minha Imagem"></img>
+      {/* Chamando o componente */}
+      <HelloWorld/>
     </div>
   )
 } 

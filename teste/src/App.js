@@ -6,6 +6,8 @@ import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
 import Produto from './components/Produto';
 import List from './components/List';
+import Evento from './components/Evento';
+import Form from './components/Form';
 
 
 // todo o conteúdo é escrito dentro da função
@@ -44,6 +46,10 @@ function App() {
       <Produto nome="Picanha" tipo="Carne" quantidade="10" preco="R$ 20,00"/>
 
       <List/>
+
+      <h1>EVENTOS REACT</h1>
+      <Evento/>
+      <Form/>
     </div>
   )
 } 

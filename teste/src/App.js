@@ -8,6 +8,7 @@ import Produto from './components/Produto';
 import List from './components/List';
 import Evento from './components/Evento';
 import Form from './components/Form';
+import Condicional from './components/Condicional';
 
 
 // todo o conteúdo é escrito dentro da função
@@ -50,6 +51,9 @@ function App() {
       <h1>EVENTOS REACT</h1>
       <Evento/>
       <Form/>
+
+      <h1>Renderização Condicional</h1>
+      <Condicional />
     </div>
   )
 } 

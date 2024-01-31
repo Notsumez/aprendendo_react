@@ -2,6 +2,9 @@
 import './App.css';
 // Definindo o componente
 import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
+import Produto from './components/Produto';
 
 
 // todo o conteúdo é escrito dentro da função
@@ -17,6 +20,8 @@ function App() {
 
   const url = 'https://via.placeholder.com/150'
 
+  const nome = "Clara"
+
   return (
     // No react(JSX), obrigatóriamente os elementos devem estar dentro de um elemento pai, eles não podem estar no mesmo nível
     // A maneira correta de declarar o atributo 'class' no JSX é através de 'ClassName'.
@@ -30,6 +35,12 @@ function App() {
       <img src={url} alt="Minha Imagem"></img>
       {/* Chamando o componente */}
       <HelloWorld/>
+      <SayMyName nome="Matheus"/>
+      <SayMyName nome="Maria"/>
+      <SayMyName nome={nome}/>
+
+      <Pessoa nome="Rodrigo" idade="17" profissao="Estudante" foto="https://www.svgrepo.com/show/512317/github-142.svg"/>
+      <Produto nome="Picanha" tipo="Carne" quantidade="10" preco="R$ 20,00"/>
     </div>
   )
 } 

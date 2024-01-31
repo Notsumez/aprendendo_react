@@ -1,0 +1,12 @@
+/* No module css não é possível criar classes com o Sinal de Travessão, apenas subtraço ou junto */
+
+.frase_container{
+    background-color: #333;
+    border: 1px solid #111;
+}
+
+.fraseContent{
+    color: white;
+    background-color: #333;
+    margin: 0;
+}

@@ -28,7 +28,7 @@ function App() {
       <img src={url} alt="Minha Imagem"></img>
     </div>
   )
-}
+} 
 
 // também é usada para a exportação
 export default App;
